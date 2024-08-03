@@ -35,7 +35,7 @@ const Social = () => {
   return (
     <div className='flex gap-x-4'>
       {socialIcon.map((path, index)=>{
-        return <Link href={path.path}>{path.name}
+        return <Link href={path.path} key={index}>{path.name}
         </Link>
       })}
     </div>

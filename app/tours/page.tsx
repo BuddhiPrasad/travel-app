@@ -42,7 +42,7 @@ const page = () => {
           tourGuides
           -----------------------------
           {tourGuides.map((item, index)=>{
-            return <div>
+            return <div key={index}>
               {item.name}
             </div>
           })}
