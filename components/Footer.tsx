@@ -14,7 +14,7 @@ const Footer = () => {
                 <Social/>
                 {/*Copyright */}
                 <div className='text-muted-foreground'>
-                    Copyright &copy; Traveltrix.co. All rights reserved.
+                    Copyright &copy; Travlog.com. All rights reserved.
                 </div>
             </div>
         </WrapperContainer>

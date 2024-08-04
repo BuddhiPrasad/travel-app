@@ -5,6 +5,7 @@ import Nav from './Nav'
 import { AlignJustify } from 'lucide-react'
 import Social from './Social'
 import CustomButton from './CustomButton'
+import { Button } from './ui/button'
 
 const MobileNav = () => {
   return (
@@ -18,6 +19,8 @@ const MobileNav = () => {
             <Logo/>
             <Nav containerStyle='flex flex-col items-center gap-y-6'/>
           </div>
+          <Button className='rounded-[20px] px-12 bg-transparent text-primary border border-primary dark:text-white dark:border-white '>Get Start</Button>
+
           <div className='flex flex-col'>
             <Social/>
           </div>

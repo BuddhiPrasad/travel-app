@@ -1,10 +1,13 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+import logo from '../public/logo.svg'
+
 const Logo = () => {
   return (
-    <Link href='/' className='text-2xl font-semibold'>
-      Travel<span className='font-bold text-blue-600'>trix</span>
+    <Link href='/'>
+      <Image src={logo} alt='logo'/>
     </Link>
   )
 }

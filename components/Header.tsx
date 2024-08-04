@@ -4,17 +4,25 @@ import Logo from './Logo'
 import { ThemeToggler } from './ThemeToggler'
 import Nav from './Nav'
 import MobileNav from './MobileNav'
+import { Button } from './ui/button'
 
 const Header = () => {
   return (
-    <header className='py-4 sticky top-0 z-30 transition-all bg-secondary'>
+    <header className='py-4 sticky top-0 z-30 transition-all border-b '>
         <WrapperContainer>
             <div className='flex justify-between items-center'>
                 {/*Logo */}
                 <Logo/>
-                <div className='flex items-center gap-x-6'>
+                <div>
                     {/*Nav-Desktop */}
                     <Nav containerStyle='hidden xl:flex gap-x-8 items-center'/>
+                </div>
+                <div className='flex items-center gap-x-6'>
+                    
+                    <div className='hidden xl:flex gap-x-4 '>
+                        <Button className='rounded-[20px] px-8'>Log in</Button>
+                        <Button className='rounded-[20px] px-8 bg-transparent text-primary border border-primary'>Sign up</Button>
+                    </div>
                     {/*ThemeToggler */}
                     <ThemeToggler/>
                     {/*Nav-Mobile */}

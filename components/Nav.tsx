@@ -4,16 +4,16 @@ import React from 'react'
 
 import { usePathname } from "next/navigation";
 import Link from 'next/link';
-import CustomButton from './CustomButton';
 import { CustonNav } from '@/type/page';
+import { Button } from './ui/button';
 
 const Links = [
     {path: '/', name:'Home'},
-    {path: '/news', name:'News'},
-    {path: '/tour-agencies', name:'Tour Agencies'},
-    {path: '/tours', name:'Tours'},
-    {path: '/about-us', name:'About Us'},
-    {path: '/contact-us', name:'Contact Us'},
+    {path: '/destinations', name:'Destinations'},
+    {path: '/packages', name:'Packages'},
+    {path: '/blog', name:'Blog'},
+    {path: '/about', name:'About'},
+    {path: '/contact', name:'Contact'},
 ]
 
 const Nav = ({containerStyle}:CustonNav) => {
@@ -25,10 +25,10 @@ const Nav = ({containerStyle}:CustonNav) => {
             return <Link href={link.path} key={index} className='hover:text-primary'>{link.name}</Link>;
         })}
 
-        <div className='flex flex-row gap-x-4'>
-             <CustomButton title='Sign in' containerStyles='button-main  px-8'/>
-             <CustomButton title='Sign up' containerStyles='button-sub  px-8'/> 
-            </div>
+        {/*<div className='flex flex-row gap-x-4'>
+          <Button className='rounded-[20px] px-8'>Log in</Button>
+          <Button className='rounded-[20px] px-8 bg-transparent text-primary border border-primary'>Sign up</Button>
+        </div>*/}
       
     </nav>
   )
