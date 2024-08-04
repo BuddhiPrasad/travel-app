@@ -72,14 +72,14 @@
 }
 
 
-.button-main{
-  @apply  bg-blue-600 dark:text-white rounded-full font-semibold;
+.h3{
+  @apply text-xl font-semibold;
 }
 
-.button-sub{
-  @apply bg-transparent border border-blue-600 rounded-full text-blue-600 font-semibold;
+.section-title {
+  @apply text-3xl font-bold;
 }
 
-.hero{
-  @apply text-ellipsis;
+.p {
+  @apply text-muted-foreground;
 }
