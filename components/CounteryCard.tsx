@@ -7,7 +7,7 @@ const CounteryCard = () => {
   return (
     <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 items-center justify-center gap-8 '>
       {tourcounties.map((item, index)=>{
-        return <div className='relative h-102 rounded-[30px]'>
+        return <div key={index} className='relative h-102 rounded-[30px]'>
           
               <Image src={item.image} alt='{item.name}' className='rounded-[30px] mb-4 h-full object-cover'/>
               <div className='m-4'>
