@@ -1,4 +1,12 @@
 
+import Tokyo from '../public/populercountires/Tokyo.png'
+import Rome from '../public/populercountires/Rome.png'
+import Barcelona from '../public/populercountires/Barcelona.png'
+import Bangkok from '../public/populercountires/Bangkok.png'
+import Sydney from '../public/populercountires/Sydney.png'
+import Toronto from '../public/populercountires/Toronto.png'
+
+
 
 export const tourList = [
     {
@@ -57,20 +65,34 @@ export const tourCategory = [
 
 export const tourcounties = [
     {
-        name: 'Sri Lanka',
-        image: '',
+        name: 'Tokyo',
+        image: Tokyo,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
     },
     {
-        name: 'Australia',
-        image: '',
+        name: 'Rome',
+        image: Rome,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
     },
     {
-        name: 'France',
-        image: '',
+        name: 'Barcelona',
+        image: Barcelona,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
     },
     {
-        name: 'United Kingdom',
-        image: '',
+        name: 'Bangkok',
+        image: Bangkok,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
+    },
+    {
+        name: 'Sydney',
+        image: Sydney,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
+    },
+    {
+        name: 'Toronto',
+        image: Toronto,
+        description: 'Lorem Ipsum is simply dummy text of the printing and...',
     }
 ];
 

@@ -5,6 +5,7 @@ import WrapperContainer from './WrapperContainer'
 import Lot_of_choices from '../public/TopValies/Lot of choices.png'
 import Best_Tour_Guide from '../public/TopValies/Best Tour Guide.png'
 import Easy_Booking from '../public/TopValies/Easy Booking.png'
+import ww22ww from '../public/22ww.webp'
 import Image from 'next/image'
 
 const TopValies = () => {
@@ -42,6 +43,10 @@ const TopValies = () => {
 
                 
             </div>
+
+
+
+            
         </WrapperContainer>
       
     </section>
