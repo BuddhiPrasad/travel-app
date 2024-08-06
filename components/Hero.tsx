@@ -36,7 +36,7 @@ const Hero = () => {
 
            <div className='flex w-full justify-center xl:justify-end items-end '>
            
-            <div className='w-[600px]'>
+            <div className='w-[600px] xl:w-[800px]'>
               <Image src={hero01} alt='hero01'/>
             </div>
             
