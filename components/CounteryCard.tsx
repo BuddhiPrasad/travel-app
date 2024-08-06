@@ -5,6 +5,8 @@ import { Button } from './ui/button'
 
 const CounteryCard = () => {
   return (
+
+
     <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 items-center justify-center gap-8 '>
       {tourcounties.map((item, index)=>{
         return <div key={index} className='relative h-102 rounded-[30px]'>

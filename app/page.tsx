@@ -1,5 +1,8 @@
 
+import Feature01 from "@/components/Feature01";
+import Feature02 from "@/components/Feature02";
 import Hero from "@/components/Hero";
+import Newsletter from "@/components/Newsletter";
 import PopulerCountries from "@/components/PopulerCountries";
 import TopValies from "@/components/TopValies";
 import TourCard from "@/components/TourCard";
@@ -11,9 +14,10 @@ export default function Home() {
     <main>
       <Hero/>
       <TopValies/>
+      <Feature01/>
       <PopulerCountries/>
-      <Button>Click Me</Button>
-      <TourCard/>
+      <Feature02/>
+      <Newsletter/>
     </main>
   );
 }
