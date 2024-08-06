@@ -8,7 +8,7 @@ import { Button } from './ui/button'
 
 const Header = () => {
   return (
-    <header className='py-4 sticky top-0 z-30 transition-all border-b '>
+    <header className='py-4 sticky top-0 z-30 transition-all border-b bg-secondary'>
         <WrapperContainer>
             <div className='flex justify-between items-center'>
                 {/*Logo */}
